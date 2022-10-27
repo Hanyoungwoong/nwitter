@@ -1,11 +1,7 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
 import './index.css';
-import App from './App';
-import firebase from 'firebase/compat/app';
-import 'firebase/compat/auth';
-import 'firebase/compat/firestore';
-console.log(firebase);
+import App from "./components/App";
 
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
